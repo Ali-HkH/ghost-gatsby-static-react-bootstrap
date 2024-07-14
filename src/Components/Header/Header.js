@@ -1,13 +1,12 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
-import { FaTelegram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaWifi } from "react-icons/fa";
-
+import { PiTelegramLogoLight } from "react-icons/pi";
+import { CiFacebook } from "react-icons/ci";
+import { TbBrandFeedly } from "react-icons/tb";
 
 function Header({ isHome }) {
-
   return (
     <div className="container-fluid header-banner">
       <div className="container  py-3 px-5">
@@ -16,9 +15,15 @@ function Header({ isHome }) {
             <img src="./imgs/ghost-logo-lime.png" alt="logo" />
           </div>
           <div className="top-header-right">
-            <FaTelegram className="header-icons"/>
-            <FaFacebook className="header-icons"/>
-            <FaWifi className="header-icons"/>
+            <Link to="https://telegram.com/tryghost">
+              <PiTelegramLogoLight className="header-icons" />
+            </Link>
+            <Link to="https://www.facebook.com/ghost">
+              <CiFacebook className="header-icons" />
+            </Link>
+            <Link to="https://feedly.com/i/subscription/feed/http://localhost:8000/rss/">
+              <TbBrandFeedly className="header-icons" />
+            </Link>
           </div>
         </div>
         {isHome === true && (

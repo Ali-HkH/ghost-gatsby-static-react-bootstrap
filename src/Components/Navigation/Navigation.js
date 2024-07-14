@@ -17,7 +17,7 @@ function Navigation() {
                 <Link to="/author">Author</Link>
               </li>
               <li>
-                <Link to="#">Help</Link>
+                <Link to="https://ghost.org/docs/">Help</Link>
               </li>
             </ul>
           </div>
