@@ -1,15 +1,16 @@
 import "./App.css";
 import routes from "./routes";
-import { useRoutes } from "react-router-dom";
+import { useLocation, useRoutes } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   const router = useRoutes(routes);
+  const routeAddress = useLocation()
 
   return (
     <>
-      <Header />
+      <Header isHome={routeAddress.pathname === "/" ? true : false}/>
 
       {router}
 

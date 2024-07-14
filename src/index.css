@@ -10,8 +10,21 @@ html {
 
 
 :root {
-    --light-text: #e2e2e2;
+    --light-text: #b9b8b8;
     --main-text : #1c1c1c;
-    --side-text: #3b3b3b;
+    --side-text: #545454;
     --main-transition : all 0.3s linear;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--side-text);
 }
