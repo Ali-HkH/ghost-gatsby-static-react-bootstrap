@@ -12,6 +12,7 @@
 }
 
 .nav-buttons li a{
+    color: var(--side-text);
     padding-right: 15px;
     transition: var(--main-transition);
 }
