@@ -1,0 +1,50 @@
+.article-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.article-box-cover{
+    flex-basis: 200px;
+    transition: var(--main-transition);
+}
+.article-box-cover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.article-guide {
+    color: var(--side-text);
+}
+
+.article-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.article-body {
+    color: var(--side-text);
+}
+
+.article-box-desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--side-text);
+}
+
+.article-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+}
+
+.article-author span svg {
+    box-sizing: content-box;
+    background-color: var(--side-text);
+    color: var(--light-text);
+    padding: 5px;
+    border-radius: 3px;
+}
