@@ -1,0 +1,43 @@
+.author-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.author-desc {
+    font-size: 1.5rem;
+    color: var(--side-text);
+}
+
+.author-socials {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-socials a:hover {
+    text-decoration: underline;
+}
+
+.author-pic {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: var(--main-transition);
+}
+
+.author-pic:hover {
+    border: 3px solid purple;
+    cursor: pointer;
+}
+
+.recomended-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+}

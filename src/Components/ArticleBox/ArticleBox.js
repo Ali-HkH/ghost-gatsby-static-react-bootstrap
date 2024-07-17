@@ -6,7 +6,7 @@ import { FaPencil } from "react-icons/fa6";
 function ArticleBox({ id, img, title, desc, author, time, isTag}) {
   return (
     <div className={`article-box ${isTag && "align-items-center"}`}>
-      <div className="article-box-cover mb-3 ">
+      <div className="article-box-cover mb-1 ">
         <Link to={`/articleInfo/${id}`}>
           <img src={img} alt="article-cover" className="h-100" />
         </Link>
