@@ -6,7 +6,7 @@
 }
 
 .article-box-cover{
-    flex-basis: 200px;
+    flex-basis: 225px;
     transition: var(--main-transition);
 }
 .article-box-cover:hover{
@@ -19,6 +19,7 @@
 }
 
 .article-title{
+    color: var(--main-text);
     font-size: 1.5rem;
     font-weight: bold;
 }

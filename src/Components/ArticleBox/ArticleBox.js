@@ -1,17 +1,22 @@
 import React from "react";
 import "./ArticleBox.css";
+import { Link } from "react-router-dom";
 import { FaPencil } from "react-icons/fa6";
 
-function ArticleBox({ img, title, author, time, children }) {
+function ArticleBox({ id, img, title, desc, author, time}) {
   return (
     <div className="article-box">
       <div className="article-box-cover mb-3 ">
-        <img src={img} alt="article-cover h-100" />
+        <Link to={`/articleInfo/${id}`}>
+          <img src={img} alt="article-cover" className="h-100" />
+        </Link>
       </div>
       <div className="article-box-content">
         <p className="article-guide mb-0">Getting Started</p>
-        <p className="article-title mb-1">{title}</p>
-        <p className="article-body">{children}</p>
+        <Link to={`/articleInfo/${id}`}>
+          <p className="article-title mb-1">{title}</p>
+        </Link>
+        <p className="article-body">{desc}</p>
         <div className="article-box-desc px-1 py-1">
           <div className="article-author">
             <span>

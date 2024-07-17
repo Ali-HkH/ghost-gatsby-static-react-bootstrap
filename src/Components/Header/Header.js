@@ -12,7 +12,7 @@ function Header({ isHome }) {
       <div className="container  py-3 px-5">
         <div className="top-header mb-5 pt-3">
           <div className="top-header-left">
-            <img src="./imgs/ghost-logo-lime.png" alt="logo" />
+            <img src="../imgs/ghost-logo-lime.png" alt="logo" />
           </div>
           <div className="top-header-right">
             <Link to="https://telegram.com/tryghost">
