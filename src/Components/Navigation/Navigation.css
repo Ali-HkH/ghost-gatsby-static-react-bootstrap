@@ -20,12 +20,12 @@
     color: var(--light-text);
 }
 
-.about-btn {
+.help-btn {
     border: 1px solid var(--side-text);
     border-radius: 5px;
     padding: 3px 5px;
     transition: var(--main-transition);
 }
-.about-btn:hover {
+.help-btn:hover {
     color: var(--light-text);
 }

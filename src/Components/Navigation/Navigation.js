@@ -17,12 +17,12 @@ function Navigation() {
                 <Link to="/author">Author</Link>
               </li>
               <li>
-                <Link to="https://ghost.org/docs/">Help</Link>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
           <div className="right-nav">
-            <Link to="/about" className="about-btn">About</Link>
+            <Link to="https://ghost.org/docs/" className="help-btn">Help</Link>
           </div>
         </nav>
   )
