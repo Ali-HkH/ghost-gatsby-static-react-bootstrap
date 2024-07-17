@@ -12,7 +12,7 @@ function Home() {
       <div className="row gy-5 gx-5">
         {articles.map((article) => (
           <div className="col-12 col-md-6 col-lg-4" key={article.id}>
-            <ArticleBox {...article} />
+            <ArticleBox isTag={false} {...article} />
               
           </div>
         ))}
