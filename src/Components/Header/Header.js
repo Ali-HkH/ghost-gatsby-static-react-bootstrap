@@ -9,7 +9,7 @@ import { TbBrandFeedly } from "react-icons/tb";
 function Header({ isHome }) {
   return (
     <div className="container-fluid header-banner">
-      <div className="container  py-3 px-5">
+      <div className="container  py-3">
         <div className="top-header mb-5 pt-3">
           <div className="top-header-left">
             <img src="../imgs/ghost-logo-lime.png" alt="logo" />

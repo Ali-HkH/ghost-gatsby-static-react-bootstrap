@@ -7,9 +7,9 @@ function Tag() {
   const [articles, setArticles] = useState(allArticles);
 
   return (
-    <div className="container py-5 px-5 my-2">
+    <div className="container py-5 my-2">
       <h1 className="tag-header pb-5">Getting Started</h1>
-      <div className="row gy-5 gx-5">
+      <div className="row gy-4 gx-5">
         {articles.map((article) => (
           <div className="col-12 col-md-6 col-lg-4" key={article.id}>
             <ArticleBox isTag={true} {...article} />

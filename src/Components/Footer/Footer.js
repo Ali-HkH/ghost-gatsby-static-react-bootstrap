@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="container-fluid">
-      <div className="container pt-4 pb-5 px-5">
+      <div className="container footer pt-4 pb-5">
         <div className="footer-left">
           <p>
             <span className="footer-logo">Ghost & Gatsby</span> © 2021 —

@@ -2,7 +2,7 @@ footer {
     background-color: rgb(31, 31, 31);
 }
 
-footer .container {
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
