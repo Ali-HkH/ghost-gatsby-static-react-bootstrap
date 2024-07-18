@@ -30,7 +30,7 @@ function ArticleInfo() {
           <h3 className="article-info-header pb-1">
             A few things you should know
           </h3>
-          <ul className="text-list">
+          <ul className="text-numeric-list">
             <li>
               <p className="article-info-text ps-2">
                 Ghost is designed for ambitious, professional publishers who

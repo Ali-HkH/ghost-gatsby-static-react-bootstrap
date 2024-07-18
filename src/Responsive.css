@@ -15,14 +15,14 @@
 
 @media (min-width: 768px) {
     .container {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }
 @media (min-width: 992px) {
     .container {
-        padding-left: 130px;
-        padding-right: 130px;
+        padding-left: 8vw;
+        padding-right: 8vw;
     }
 }
 

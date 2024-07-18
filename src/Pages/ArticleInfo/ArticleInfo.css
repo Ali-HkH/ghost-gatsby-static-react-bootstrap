@@ -27,8 +27,11 @@
     font-weight: bold;
 }
 
-.text-list {
+.text-numeric-list {
     list-style-type: decimal;
+}
+.text-list {
+    list-style-type: disc;
 }
 
 .article-info-text {
@@ -38,4 +41,11 @@
 
 .text-border-start {
     border-left: 10px solid rgb(140, 225, 240);
+}
+
+.link {
+    color: rgb(0, 145, 255);
+}
+.link:hover {
+    text-decoration: underline;
 }
