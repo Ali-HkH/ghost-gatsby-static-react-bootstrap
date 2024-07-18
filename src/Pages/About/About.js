@@ -16,7 +16,7 @@ function About() {
         <p className="article-info-text ps-2 pb-4">
           Use Ghost as a completely decoupled headless CMS and bring your own
           front-end written in{" "}
-          <a href="#" className="link">
+          <a href="https://gatsbyjs.org/?ref=gatsby.ghost.io" className="link">
             Gatsby.js
           </a>{" "}
         </p>
@@ -84,12 +84,18 @@ function About() {
           </ul>
           <p className="article-info-text ps-2 pb-5">
             Building sites in this way has become known as the{" "}
-            <a href="#" className="link">
+            <a
+              href="https://jamstack.org/?ref=gatsby.ghost.io"
+              className="link"
+            >
               JAMstack
             </a>{" "}
             - (as in JavaScript, APIs, Markup). When you look at the bigger
             picture of{" "}
-            <a href="#" className="link">
+            <a
+              href="https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/?ref=gatsby.ghost.io"
+              className="link"
+            >
               the content mesh
             </a>{" "}
             , it really starts to feel like an inevitable future for building
@@ -103,19 +109,31 @@ function About() {
           </h3>
           <p className="article-info-text ps-2 pb-1">
             We rebuilt our entire{" "}
-            <a href="#" className="link">
+            <a
+              href="https://ghost.org/docs/?ref=gatsby.ghost.io"
+              className="link"
+            >
               Ghost Docs
             </a>{" "}
-            site with a front-end written in Gatsby.js - which is a great
-            example of what can be achieved with Ghost and Gatsby in the wild.
-            We also shipped a few things to help others build their own sites
-            using the same stack:
+            site with a front-end written in{" "}
+            <a
+              href="https://gatsbyjs.org/?ref=gatsby.ghost.io"
+              className="link"
+            >
+              Gatsby.js
+            </a>{" "}
+            - which is a great example of what can be achieved with Ghost and
+            Gatsby in the wild. We also shipped a few things to help others
+            build their own sites using the same stack:
           </p>
         </div>
         <div className="article-info-parag py-2">
           <h3 className="article-info-header pb-1">
             ⚡{" "}
-            <a href="#" className="link">
+            <a
+              href="#https://github.com/tryghost/gatsby-source-ghost?ref=gatsby.ghost.io"
+              className="link"
+            >
               gatsby-source-ghost
             </a>{" "}
             plugin
@@ -129,19 +147,28 @@ function About() {
         <div className="article-info-parag py-2">
           <h3 className="article-info-header pb-1">
             ⚡{" "}
-            <a href="#" className="link">
+            <a
+              href="https://github.com/tryghost/gatsby-starter-ghost?ref=gatsby.ghost.io"
+              className="link"
+            >
               gatsby-starter-ghost
             </a>
           </h3>
           <p className="article-info-text ps-2 pb-1">
             An official{" "}
-            <a href="#" className="link">
+            <a
+              href="https://github.com/tryghost/gatsby-starter-ghost?ref=gatsby.ghost.io"
+              className="link"
+            >
               Gatsby starter repository
             </a>{" "}
             which is pre-configured to get content from Ghost and output it in a
             clean, blog-style design. The fastest way to get up and running with
             Gatsby and Ghost is to fork this repository, and check out our{" "}
-            <a href="#" className="link">
+            <a
+              href="https://ghost.org/docs/jamstack/gatsby/?ref=gatsby.ghost.io"
+              className="link"
+            >
               Gatsby docs
             </a>
             .
@@ -158,7 +185,10 @@ function About() {
         <div className="article-info-parag py-1">
           <h3 className="article-info-header pb-1">
             ⚡{" "}
-            <a href="#" className="link">
+            <a
+              href="https://ghost.org/integrations/netlify/?ref=gatsby.ghost.io"
+              className="link"
+            >
               Netlify integration for Ghost
             </a>{" "}
           </h3>
