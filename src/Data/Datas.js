@@ -1,13 +1,5 @@
 let allArticles = [
   {
-    id: "1",
-    img: "../imgs/img1.png",
-    title: "About Ghost + Gatsby",
-    desc: "Build an API driven static-site with Gatsby.js and use Ghost as a completely decoupled headless CMS. Read more about how it works and how to use this starter theme here!",
-    author: "Ghost",
-    time: "3",
-  },
-  {
     id: "2",
     img: "../imgs/img2.png",
     title: "Welcome to Ghost",
