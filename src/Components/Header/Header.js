@@ -12,7 +12,7 @@ function Header({ isHome }) {
       <div className="container  py-3">
         <div className="top-header mb-5 pt-3">
           <div className="top-header-left">
-            <img src="../imgs/astronaut-cyberpunk.jpg" alt="logo" />
+            <img src={`${process.env.PUBLIC_URL}/imgs/astronaut-cyberpunk.jpg`} alt="logo" />
           </div>
           <div className="top-header-right">
             <Link to="https://telegram.com/tryghost">

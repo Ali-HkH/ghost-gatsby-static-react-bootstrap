@@ -6,7 +6,7 @@ function About() {
     <div className="container article-container py-5 mb-5">
       <div className="article-info-banner pb-3">
         <img
-          src="../imgs/img1.png"
+          src={`${process.env.PUBLIC_URL}/imgs/img1.png`}
           alt="article-banner"
           className="banner-img w-100 "
         />

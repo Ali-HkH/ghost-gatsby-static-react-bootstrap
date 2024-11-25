@@ -29,7 +29,7 @@ function Author() {
           </div>
         </div>
         <div className="author-pic">
-          <img src="../imgs/astronaut-cyberpunk.jpg" alt="author-pic" />
+          <img src={`${process.env.PUBLIC_URL}/imgs/astronaut-cyberpunk.jpg`} alt="author-pic" />
         </div>
       </div>
       <div className="row gy-5 gx-5">
