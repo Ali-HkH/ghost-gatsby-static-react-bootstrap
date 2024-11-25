@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ghost-gatsby-static-react-bootstrap/static/css/main.3ada0705.css",
-    "main.js": "/ghost-gatsby-static-react-bootstrap/static/js/main.8442b684.js",
+    "main.js": "/ghost-gatsby-static-react-bootstrap/static/js/main.93c7d31f.js",
     "static/media/blog-cover.jpg": "/ghost-gatsby-static-react-bootstrap/static/media/blog-cover.8f27695f23c6516c423a.jpg",
     "index.html": "/ghost-gatsby-static-react-bootstrap/index.html",
     "main.3ada0705.css.map": "/ghost-gatsby-static-react-bootstrap/static/css/main.3ada0705.css.map",
-    "main.8442b684.js.map": "/ghost-gatsby-static-react-bootstrap/static/js/main.8442b684.js.map"
+    "main.93c7d31f.js.map": "/ghost-gatsby-static-react-bootstrap/static/js/main.93c7d31f.js.map"
   },
   "entrypoints": [
     "static/css/main.3ada0705.css",
-    "static/js/main.8442b684.js"
+    "static/js/main.93c7d31f.js"
   ]
 }
