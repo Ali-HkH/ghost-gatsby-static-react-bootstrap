@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(31, 31, 31);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-text);
+}
+
+.footer-left p {
+    font-size: .85rem;
+}
+
+.footer-logo{
+    transition: var(--main-transition);
+}
+.footer-logo:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-right .nav-buttons li a{
+    font-size: 0.85rem;
+    color: var(--light-text);
+    padding-right: 15px;
+}
+.footer-right .nav-buttons li a:hover {
+    color: #fff;
+}

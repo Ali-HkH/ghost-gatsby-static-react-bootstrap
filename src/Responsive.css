@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .footer-right {
+        order: -1;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+}
+
+
+
+
+
+
+

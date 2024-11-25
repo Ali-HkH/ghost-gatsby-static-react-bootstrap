@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --light-text: #b9b8b8;
+    --main-text : #1c1c1c;
+    --side-text: #545454;
+    --main-transition : all 0.3s linear;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--side-text);
+}

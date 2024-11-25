@@ -1,0 +1,31 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+}
+
+.nav-buttons li a{
+    color: var(--side-text);
+    padding-right: 15px;
+    transition: var(--main-transition);
+}
+.nav-buttons li a:hover {
+    color: var(--light-text);
+}
+
+.help-btn {
+    border: 1px solid var(--side-text);
+    border-radius: 5px;
+    padding: 3px 5px;
+    transition: var(--main-transition);
+}
+.help-btn:hover {
+    color: var(--light-text);
+}
