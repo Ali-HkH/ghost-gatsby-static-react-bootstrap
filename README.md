@@ -1,5 +1,11 @@
-Simple SPA site with react, react routes and bootstrap
+### Visit Demo :
+# [Ghost Gatsby](https://ali-hkh.github.io/ghost-gatsby-static-react-bootstrap/)
+
+- Simple SPA website
+- Dynamic pages
+- Responsive
+- Component based
+- developed with react and bootstrap
 ****************************
-The design inspired by ghost & gatsby but I developed it in my own way.
-****************************
-[See this demo](https://ali-hkh.github.io/ghost-gatsby-static-react-bootstrap/)
+### note:
+The design inspired from ghost & gatsby and I developed some part of it.
