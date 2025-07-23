@@ -1,4 +1,3 @@
-import React from "react";
 import "./ArticleBox.css";
 import { Link } from "react-router-dom";
 import { FaPencil } from "react-icons/fa6";
